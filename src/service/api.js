@@ -8,3 +8,13 @@ const instance = axios.create({
     per_page: 12,
   },
 });
+
+export const fetchPicturesQuery = async (search, page) => {
+  const { data } = await instance.get('/', {
+    params: {
+      q: search,
+      page: page,
+    },
+  });
+  return data;
+};
