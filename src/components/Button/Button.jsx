@@ -1,4 +1,4 @@
-import styles from './Button.modale.css';
+import styles from './Button.module.css';
 
 const Button = ({ onClick }) => {
   return (

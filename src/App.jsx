@@ -5,7 +5,7 @@ import ImageGallery from 'components/ImageGallery/ImageGallery';
 import Loader from 'components/Loader/Loader';
 import Button from 'components/Button/Button';
 import { ToastContainer } from 'react-toastify';
-import { fetchPicturesQuery } from 'service/api';
+// import { fetchPicturesQuery } from 'service/api';
 
 export default class App extends Component {
   state = {
